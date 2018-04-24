@@ -53,7 +53,7 @@ position: relative;
 }
 
 .small-blurb {
-    background-color: rgba(186, 184, 182, 0.6);
+    background-color: rgba(186, 184, 182, 0.8);
     width: 480px;
     height: 350px;
     
@@ -98,7 +98,7 @@ position: relative;
 
 /* HERO IMAGE */
 #hero {
-    background-image: url("../img/fromabove.jpg");
+    background-image: url("../img/fullassembly.jpg");
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
