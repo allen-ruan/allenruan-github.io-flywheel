@@ -100,7 +100,7 @@ position: relative;
 
 /* HERO IMAGE */
 #hero {
-    background-image: url("../img/fromabove.JPG");
+    background-image: url("../img/fromabove.jpg");
 /*    background-image: url("../img/bottomplate.mp4");*/
     background-position: center;
     background-repeat: repeat;
