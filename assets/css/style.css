@@ -24,26 +24,25 @@ position: relative;
     padding-right: 15px;
     padding-left: 15px;
     text-decoration: none;
-    color: #2D2E2E;
     display: flex;
     flex-direction: column;
     transition: .2s;
 }
 
-#sidebar a:hover {
-    background-color: #74787A;
-    transition: .2s;
-
-}
 
 .chunk {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50px;
-    padding-top: 55px;
-    padding-bottom: 55px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
+
+.highlight {
+    opacity: 0.5;
+}
+
 
 /* GENERAL */
 .section {
@@ -54,14 +53,13 @@ position: relative;
 }
 
 .small-blurb {
-    background-color: transparent;
-    /*opacity: 0.4;*/
-    width: 550px;
+    background-color: rgba(186, 184, 182, 0.6);
+    width: 480px;
     height: 350px;
     
     z-index: 2;
     left: 900px;
-    top: 350px;
+    top: 330px;
     position: relative;
 
     display: flex;
@@ -101,7 +99,6 @@ position: relative;
 /* HERO IMAGE */
 #hero {
     background-image: url("../img/fromabove.jpg");
-/*    background-image: url("../img/bottomplate.mp4");*/
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
@@ -111,9 +108,14 @@ position: relative;
 }
 
 #main-title {
+    display: none;
     text-align: right;
 }
 
+#names {
+    display: none;
+    text-align: right;
+}
 
 /* IDEA IMAGE */
 #idea {
