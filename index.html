@@ -1,0 +1,104 @@
+<html>
+<head>
+<title>FLYWHEEL</title>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/jquery.fullPage.css" />
+</head>
+<body>
+	<!-- SIDE BAR -->
+	<div id="sidebar">
+		<a href="#page_home">
+			<img class="chunk" src="assets/img/home.png">
+		</a>
+		<a href="#page_idea">
+			<img class="chunk" src="assets/img/idea.png">
+		</a>
+		<a href="#page_build">
+			<img class="chunk" src="assets/img/build.png">
+		</a>
+		<a href="#page_test">
+			<img class="chunk" src="assets/img/test.png">
+		</a>
+	</div>
+
+
+	<div id="wrapper">
+		<!-- LANDING PAGE -->
+		<div class="section" data-anchor="page_home" id="hero">
+			<div class="small-blurb">
+				<h1 class="blurb-title" id="main-title">Designing a 1-Axis Reaction Flywheel</h1>
+				<p class="blurb-description" id="main-title">Joe Li | Allen Ruan</p>
+			</div>
+		</div>
+
+
+		<!-- IDEA PAGE -->
+		<div class="section" data-anchor="page_idea">
+			<div class="slide">
+				<img class="img-format" src="assets/img/nicecad.JPG">
+			</div>
+			<div class="slide">
+				<img class="img-format" src="assets/img/cad2.JPG">
+			</div>
+			<div class="slide">
+				<img class="img-format" src="assets/img/codingdiagram.JPG">
+			</div>
+			<div class="slide">
+				<img class="img-format" src="assets/img/wiringdiagram.JPG">
+			</div>
+			<div id="idea-blurb">
+				<h1 class="blurb-title">IDEATE</h1>
+				<div class="blurb-description">
+					The emergence of commercial space travel has necessitated increasingly efficient and affordable technologies. One particular realm of growth is improving the attitude control system for launch vehicles. Attitude control has already existed in satellite systems for some time, but improving attitude control on a more oblong geometry is more challenging. Thus, our goal is to create a 1-axis attitude controls system that produces a self-correctional rotational motion using a flywheel powered by a motor and controlled by a microcontroller and IMU. The IMU will sense and measure tilt, transmit that data to the microcontroller, which will translate that data to a simultaneous correctional rotational velocity using a PID for the flywheel.
+
+				</div>
+			</div>
+		</div>
+
+
+
+		<!-- BUILD -->
+		<div class="section" id="build" data-anchor="page_build">
+			<div class="slide">
+				<img class="img-format" id="img-vert" src="assets/img/midprint.JPG">
+			</div>
+			<div class="slide">
+				<img class="img-format" src="assets/img/joelathe.JPG">
+			</div>
+			<div class="slide">
+				<img class="img-format" id="img-vert" src="assets/img/flywheeldwg.JPG">
+			</div>
+			<div class="slide">
+				<img class="img-format" id="img-vert" src="assets/img/joeassembling.JPG">
+			</div>
+			
+			<div id="build-blurb">
+				<h1 id="build-title">BUILD</h1>
+				<div id="build-description">
+					In addition to being electronically challenging, our project was extraordinarily mechanically involved. After using Solidworks to CAD the entire wheel chamber/cage system and stand, we manufactured our components using resources and equipment at the Student Access Machine Shop in Etcheverry Hall and the Makerspace in the Jacobs Hall Design Institute. Equipment used included lathes and bandsaws for the machining of the steel flywheel and laser cutters and Type A 3D printers for the fabrication of the stand and cage components. Even though we collectively spent dozens of hours in the machine shop and the makerspace, manufacturing was honestly one of the most enjoyable parts to our project.
+				</div>
+			</div>
+		</div>
+
+
+		<!-- TEST -->
+		<div class="section" data-anchor="page_test">
+			<div id="test-blurb">
+				<h1 class="blurb-title">TESTING AND RESULTS</h1>
+				<div class="blurb-description">
+					Stuff has not been tested yet.
+				</div>
+			</div>
+			<div class="slide">
+				<img class="img-format" src="assets/img/midassembly.JPG">
+			</div>
+		</div>
+	</div>
+
+
+</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.fullPage.js"></script>
+<script type="text/javascript" src="assets/js/script.js"></script>
+</html>
